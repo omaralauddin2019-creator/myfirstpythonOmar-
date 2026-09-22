@@ -9,6 +9,7 @@ def size_mb(box):
     for size in box:
         total = total + size["size_mb"]
     return total
+print(size_mb(files))
 
 for size in files:
     if size["size_mb"] >= 50:
